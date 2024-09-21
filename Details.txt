@@ -106,24 +106,6 @@ Food Delivery Application:
     Components:
       1. NavLink ( Icon, Text )
       2. Restaurant Cards ( Name, Image, Description, Area )
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Next Session Complete Authorization
