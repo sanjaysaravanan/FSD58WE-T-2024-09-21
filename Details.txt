@@ -1,0 +1,129 @@
+AI Tools - 
+
+1. Food Delivery: 9 Votes
+    a. Phone Number - Login or Sign-Up with OTP
+    b. Display all the Restaurants
+    c. Select a Restaurant, display all foods
+    d. Select food/dish with certain qty 
+    e. add to Cart
+    f. Checkout & Pay
+
+2. Events ( Movies, Event ) booking Application
+    a. Email- Login or Sign-Up with OTP
+    b. Display all the Events
+    c. Select an event & number of tickets
+    d. Checkout & Pay
+
+3. Expense Tracker: 2 votes
+    a. Form to input the below fields
+        1. Amount
+        2. For what purpose
+        3. datetime
+    b. Dashboard to show how we spent on each purpose like,
+        a graph for day, month, year
+
+4. E.Commerce: 2 votes
+    a. Email- Login or Sign-Up with OTP
+    b. Display all the products
+    c. Select a product with qty add to cart
+    d. Checkout & Pay
+
+5. Dashboard using Graphs:
+    https://flourishing-meerkat-370485.netlify.app/
+
+
+Food Delivery Application:
+  a. Phone Number - Login or Sign-Up with OTP
+  b. Display all the Restaurants
+  c. Select a Restaurant, display all foods
+  d. Select food/dish with certain qty 
+  e. add to Cart
+  f. Checkout & Pay
+
+  1. DB Design by referring online UI designs
+
+    Users:
+      Customers/Public
+      Restaurants
+    
+      Customer:
+        1. Phone Number
+        2. Address/Location ( Pincode, Address Line 1,2, type )
+        3. FullName
+      
+      Restaurants:
+        1. Phone Number
+        2. Email
+        3. Address/Location ( Pincode, Address Line 1,2, type, area )
+        4. GST Number
+        5. Name Of the Restaurant
+        6. Image of the Restaurant
+        7. description
+      
+    Food/Dish:
+
+      1. Name
+      2. Price
+      3. isAvailable
+      4. Image
+      5. Restaurant
+    
+    Cart:
+      id
+      userId
+      items: [
+        {
+          qty,
+          ...itemDetails
+        }
+      ]
+      total
+
+  2. Front-End:
+
+      Header:
+        Logo
+        Address Title ( Change Address Btn )
+        Account Icon With Name ( Loggedin )
+        Account Icon with Sign In 
+        Cart ( with Product Count Should Display the items on hover)
+      
+      List Of Restaurants:
+        each Restaurant should have image, name, description, area
+
+      Sign In or Sign Up:
+        Overlay on the Right Side
+
+      Address Selection:
+        Overlay on the Left Side
+
+    Initial Layout for the Application
+      Header
+      Side Bars
+      Main Content
+      Footer
+
+    Components:
+      1. NavLink ( Icon, Text )
+      2. Restaurant Cards ( Name, Image, Description, Area )
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next Session Complete Authorization
